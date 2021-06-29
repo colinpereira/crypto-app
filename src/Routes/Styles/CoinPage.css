@@ -26,11 +26,13 @@
   text-transform: uppercase;
   font-weight: 700;
   color: #3aafa9;
+  background-color: transparent;
 }
 
 .coinPage-Icon {
   height: 150px;
   margin: 30px 0px 30px 0px;
+  background-color: transparent;
 }
 
 .coinPage-Data {
@@ -39,6 +41,7 @@
   width: 80%;
   align-items: center;
   margin: 5px 0px 5px 0px;
+  background-color: transparent;
 }
 
 .coinPage-Row {
@@ -47,12 +50,14 @@
   width: 80%;
   align-items: center;
   margin: 5px 0px 5px 0px;
+  background-color: transparent;
 }
 
 .coinPage-RowData {
   color: white;
   font-size: 25px;
   font-weight: 400;
+  background-color: transparent;
 }
 
 .coinPage-RowHeader {
@@ -61,6 +66,7 @@
   color: white;
   font-size: 25px;
   font-weight: 600;
+  background-color: transparent;
 }
 
 .red {
@@ -77,7 +83,6 @@
   justify-content: center;
   height: 35px;
   width: 100px;
-  margin: 10px 0px 0px 10px;
   padding: 2px 10px 5px 10px;
   background-color: #3aafa9;
   border: none;
