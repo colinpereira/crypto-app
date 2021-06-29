@@ -1,5 +1,6 @@
 import React from "react";
 import "../Components/Coin.css";
+import { useHistory } from "react-router-dom";
 
 const Coin = ({
   icon,
@@ -8,7 +9,9 @@ const Coin = ({
   price,
   marketCap,
   priceChange,
+  id,
 }) => {
+  let history = useHistory();
   return (
     <div className="coinContainer">
       <div className="coinRow">
@@ -24,7 +27,13 @@ const Coin = ({
               <p className="priceChange green">{priceChange.toFixed(2)}%</p>
             )}
             <p className="coinVolume">$ {marketCap.toLocaleString()}</p>
-            <button>More Info</button>
+            <button
+              onClick={() => {
+                history.push(`/CoinPage/${id}`);
+              }}
+            >
+              More Info
+            </button>
           </div>
         </div>
       </div>
