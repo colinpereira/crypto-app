@@ -1,0 +1,83 @@
+* {
+  background-color: #111111;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.headerContainer h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.headerContainer input {
+  padding: 5px 10px 5px 10px;
+  width: 280px;
+  height: 40px;
+  background-color: #3aafa9;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttonContainer img {
+  height: 45px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.buttonContainer img:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.headerContainer input:focus {
+  outline: none;
+  border-bottom: solid #def2f1 2px;
+  transform: scale(1.05);
+}
+
+.headerContainer input:hover {
+  transform: scale(1.05);
+  transition: all ease-in-out 0.2s;
+}
+
+.coinContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadingMssg {
+  color: white;
+}
